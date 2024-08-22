@@ -1,0 +1,199 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    background-color:rgb(211, 204, 204);
+    
+}
+.header {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+.navbar {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    
+
+}
+a,ul, li {
+    list-style: none;
+    text-decoration: none;
+
+}
+a {
+    color: rgb(31, 226, 57);
+}
+.navbar-item {
+    padding-right: 10px;
+    
+}
+a:hover{
+    text-shadow: 0 0 3px greenyellow;
+}
+.contenido{
+    display: block;
+    text-align: center;
+    
+
+}
+.contenido-titulo {
+    font-size: 3.2rem;
+    text-align: center;
+
+    
+}
+img {
+    max-width: 300px;
+    height: 500px;
+    border-radius: 4%;
+    
+    
+}
+.informaciones {
+
+    margin: 20px 40px;
+    border-radius: 50px;
+}
+.informaciones-parrafo{
+    text-align: justify;
+    padding: 10px;
+    
+}
+h1,h2 {
+    text-shadow: 0 0 3px rgb(14, 87, 17);
+}
+
+.habilidades {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+
+}
+
+.box {
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid black;
+    max-width: 300px;
+    
+}
+.box1:hover{
+    transition: all 0.5s;
+    background-color: #ff5733;
+    font-weight: 600;
+    border-radius: 100%;
+}
+.box2:hover{
+    transition: all 0.5s;
+    background-color: #08b4ff;
+    font-weight: 600;
+    border-radius: 100%;
+}
+.box3:hover{
+    transition: all 0.5s;
+    background-color: #f5f08e;
+    font-weight: 600;
+    border-radius: 100%;
+}
+.box4:hover{
+    transition: all 0.5s;
+    background-color: #a945ec;
+    font-weight: 600;
+    border-radius: 100%;
+}
+.box5:hover{
+    transition: all 0.5s;
+    background-color: #2483d1;
+    font-weight: 600;
+    border-radius: 100%;
+}
+.box6:hover{
+    transition: all 0.5s;
+    background-color: #fffb09;
+    font-weight: 600;
+    border-radius: 100%;
+}
+.box7:hover{
+    transition: all 0.5s;
+    background-color: #89f74a;
+    font-weight: 600;
+    border-radius: 100%;
+}
+.box:hover{
+    font-weight: 600;
+}
+.formulario-container {
+    border-radius: 30px;
+    margin: 30px auto; /* Centra el contenedor horizontalmente */
+    border: 2px solid #000000;
+    text-align: center;
+    max-width: 90%; /* Utiliza un ancho máximo del 90% de la pantalla */
+    padding: 20px;
+    box-sizing: border-box; /* Asegura que el padding no altere el ancho total */
+}
+
+.label {
+    font-size: 1.25rem; /* Tamaño de fuente relativo */
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input {
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.25rem; /* Tamaño de fuente relativo */
+    width: 100%; /* El input ocupará todo el ancho disponible dentro del contenedor */
+    max-width: 500px; /* Limita el ancho máximo del input */
+    box-sizing: border-box; /* Asegura que el padding no altere el ancho total */
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 600px) {
+    .formulario-container {
+        padding: 15px;
+    }
+
+    .label, .input {
+        font-size: 1rem; /* Reduce el tamaño de fuente en pantallas pequeñas */
+    }
+
+    .input {
+        max-width: 100%; /* El input ocupa todo el ancho del contenedor */
+    }
+    .button{
+        width: 100%;
+    }
+}
+textarea {
+    font-family: sans-serif;
+    width: 100%; /* El textarea ocupa todo el ancho disponible */
+    height: 150px; /* Altura del textarea */
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    box-sizing: border-box; /* Asegura que el padding no altere el ancho total */
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+}
+
+.button {
+    border-radius: 10px;
+    background-color: #000000;
+    color: white;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    width: 100px;
+    height: 50px;
+}
+.button:hover {
+    background-color: #000000;
+    border:3px solid rgb(32, 168, 20);
+}
+
