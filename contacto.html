@@ -12,37 +12,30 @@
         <nav class="navbar">
             <ul class="navbar-ul">
                 <li class="navbar-item"><a href="index.html">Inicio</a></li>
-            </ul>
-        <nav class="navbar">
-            <ul class="navbar-ul">
                 <li class="navbar-item"><a href="contacto.html">Contacto</a></li>
             </ul>
-        
-
+        </nav>
     </header>
 
     <div class="formulario-container">
-        <h2 class="formulario-subtitulo">FORMULARIO DE CONRACTO</h2>
-        <div class="formulario">
-            <label class="label" for="">Nombre y apellido</label>
-        </div>
-        <input class="input" id="nombre-id" placeholder="Juanito Pérez" type="text">
-        <div class="formulario">
-            <label class="label" for="">Correo electrónico</label>
-        </div>
-        <input class="input"id="correo-id" placeholder="JuanitoPérez@gmail.com" type="email">
-        <form>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje-id" name="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea>
-
+        <h2 class="formulario-subtitulo">FORMULARIO DE CONTACTO</h2>
+        <form id="contact-form">
+            <div class="formulario">
+                <label class="label" for="nombre-id">Nombre y apellido</label>
+                <input class="input" id="nombre-id" placeholder="Juanito Pérez" type="text" required>
+            </div>
+            <div class="formulario">
+                <label class="label" for="correo-id">Correo electrónico</label>
+                <input class="input" id="correo-id" placeholder="JuanitoPérez@gmail.com" type="email" required>
+            </div>
+            <div class="formulario">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje-id" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+            <button class="button" type="submit" id="button-id">Enviar</button>
         </form>
-        <button class="button" id="button-id">Enviar</button>
-        
-
-
     </div>
 
-
-<script src='diseño/js.js'> </script>
+    <script src="diseño/js.js"></script>
 </body>
 </html>
